@@ -17,3 +17,7 @@ spring:
           uri: http://localhost:8002
           predicates:
             - Path=/api/customers/**
+        - id: bankaccount-service
+          uri: http://localhost:8003
+          predicates:
+            - Path=/api/bankaccounts/**
