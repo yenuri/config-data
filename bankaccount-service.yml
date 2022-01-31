@@ -5,3 +5,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9001/eureka/
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://yenuri:admin@clusternttdata.yxc1d.mongodb.net/db-bootcamp?retryWrites=true&w=majority
